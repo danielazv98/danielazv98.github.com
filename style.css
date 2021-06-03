@@ -248,7 +248,7 @@ a:active {
 
 #contacto {
   margin-top: 300px;
-  height: 920px;
+  height: 1320px;
   background-color: #e10000;
   width: 100vw;
   display: grid;
@@ -531,7 +531,7 @@ a:active {
   color: #a60000;
   position: absolute;
   line-height: 0.9;
-  bottom: -3100px;
+  bottom: -3000px;
   right: 260px;
   white-space: nowrap;
 }
