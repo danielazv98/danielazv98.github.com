@@ -92,26 +92,6 @@ ul li a {
   scroll-margin-top: 20ex;
 }
 
-/* MENU CEL */
-@media screen and (max-width: 900px) {
-  .header {
-    display: grid;
-    grid-template-columns: 0fr 1fr;
-  }
-  .nav ul {
-    gap: 0px;
-    padding-top: 10px;
-    height: 30px;
-    width: 80vw;
-  }
-
-  .logo img {
-    display: none;
-    visibility: hidden;
-    padding: 0;
-  }
-}
-
 .nav ul {
   padding-top: 30px;
   padding-right: 40px;
@@ -121,6 +101,7 @@ ul li a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 /* EFECTO HOVER */
 a:after {
   background: none repeat scroll 0 0 transparent;
@@ -154,6 +135,31 @@ a:active {
 }
 .logo img {
   display: block;
+}
+
+/* MENU CEL */
+@media screen and (max-width: 900px) {
+  .header {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+  }
+
+  .estiloMenu {
+    font-size: 10px;
+  }
+  .nav ul {
+    display: flex;
+    gap: 0px;
+    padding-top: 10px;
+    height: 30px;
+    width: 80vw;
+  }
+
+  .logo img {
+    display: none;
+    visibility: hidden;
+    padding: 0;
+  }
 }
 
 /* Aqui 👇🏼 */
@@ -264,31 +270,6 @@ a:active {
   color: #ffffff;
   justify-self: end;
   padding-right: 25vw;
-}
-
-/* AYUDAAAAA */
-@media screen and (max-width: 900px) {
-  #contacto {
-    padding-top: 220px;
-    padding-left: 10%;
-    height: 620px;
-    background-color: #e10000;
-    width: 100vw;
-    display: inline-block;
-  }
-  #contacto h3 {
-    padding-top: 100px;
-    font-size: 25px;
-    color: #ffffff;
-  }
-  #contacto .datos {
-    margin-top: 40px;
-    font-size: 13px;
-    padding-right: 25vw;
-  }
-  .gracias {
-    visibility: hidden;
-  }
 }
 
 /* Utilities */
@@ -594,4 +575,41 @@ h3.gracias span {
   transform: rotate(90deg) translateX(100%);
   margin-top: 69px;
   margin-left: -10px;
+}
+
+/* AYUDAAAAA */
+@media screen and (max-width: 900px) {
+  #contain {
+    padding-top: 0px;
+    margin-top: -500px;
+  }
+  #contacto {
+    padding-top: 100px;
+    padding-left: 10%;
+    height: 1200px;
+    background-color: #e10000;
+    width: 100vw;
+    display: inline-block;
+  }
+  #contacto h3 {
+    padding-top: 100px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  #contacto .datos {
+    margin-top: 40px;
+    font-size: 13px;
+    padding-right: 25vw;
+  }
+  .gracias {
+    visibility: hidden;
+    transform-origin: top;
+    padding-top: 0px;
+    font-size: 2px;
+    margin-top: -3000px;
+  }
+  .hori {
+    transform-origin: initial;
+    margin-top: -3000px;
+  }
 }
