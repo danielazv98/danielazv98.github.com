@@ -242,8 +242,7 @@ a:active {
 }
 
 /* Contacto */
-#contain {
-}
+
 #contacto {
   margin-top: 300px;
   height: 920px;
@@ -265,6 +264,31 @@ a:active {
   color: #ffffff;
   justify-self: end;
   padding-right: 25vw;
+}
+
+/* AYUDAAAAA */
+@media screen and (max-width: 900px) {
+  #contacto {
+    padding-top: 220px;
+    padding-left: 10%;
+    height: 620px;
+    background-color: #e10000;
+    width: 100vw;
+    display: inline-block;
+  }
+  #contacto h3 {
+    padding-top: 100px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  #contacto .datos {
+    margin-top: 40px;
+    font-size: 13px;
+    padding-right: 25vw;
+  }
+  .gracias {
+    visibility: hidden;
+  }
 }
 
 /* Utilities */
