@@ -144,9 +144,6 @@ a:active {
     grid-template-columns: 0fr 1fr;
   }
 
-  .estiloMenu {
-    font-size: 10px;
-  }
   .nav ul {
     display: flex;
     gap: 0px;
@@ -602,6 +599,7 @@ h3.gracias span {
     padding-right: 25vw;
   }
   .gracias {
+    display: none;
     visibility: hidden;
     transform-origin: top;
     padding-top: 0px;
@@ -609,6 +607,7 @@ h3.gracias span {
     margin-top: -3000px;
   }
   .hori {
+    display: none;
     transform-origin: initial;
     margin-top: -3000px;
   }
